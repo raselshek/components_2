@@ -1,0 +1,43 @@
+.spinner-border {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  vertical-align: text-bottom;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner-border .75s linear infinite;
+  animation: spinner-border 10s linear infinite;
+}
+.spinner-grow {
+  display: inline-block;
+  margin:10px;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  background-color: currentColor;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-animation: spinner-grow .75s linear infinite;
+  animation: spinner-grow 2s linear infinite;
+}
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width 0.6s ease;
+  margin-bottom: 5px;
+}
+nav {
+    margin: 20px 0;
+}
+.bg-light {
+    background-color: #0882fc !important;
+}
